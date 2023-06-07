@@ -1,0 +1,168 @@
+@font-face{
+	font-family:HWYGOTH;
+	src:url("fuentes/HWYGOTH.ttf");
+}
+@font-face{
+	font-family:Music and Party;
+	src:url("fuentes/Music and Party.ttf");
+}
+
+@font-face{
+	font-family:CreatoDisplay-Regular;
+	src:url("fuentes/CreatoDisplay-Regular.otf");
+}
+
+@font-face{
+	font-family:Type Machine;
+	src:url("fuentes/Type Machine.ttf");
+}
+
+body{
+	
+	background-color:#302b50;
+	
+	
+}
+	
+h1{
+	
+	 font-family:HWYGOTH;
+	 /*font-family:Music and Party;*/
+     text-shadow: 3px 2px 1px black;
+     text-align:center;
+	 color:#ffffff;
+	 margin-left:10%;
+	 margin-right:10%;
+	 
+	 
+	 border-color:#919090;
+	 border-width:3px;
+	 border-bottom-color:;
+	 border-bottom-style:double;
+	
+
+}	
+
+
+p{
+	
+	color:white;
+	margin-left:10%;
+	margin-right:10%;
+	text-align:justify;
+	margin-top:20px;
+	font-size:18px;
+    text-shadow:3px 1px 2px black;
+    font-family:CreatoDisplay-Regular;
+	line-height:30px;
+}	
+
+h2{
+	color:white;
+	text-shadow: 3px 2px 1px black;
+	margin-left:10%;
+	margin-right:10%;
+	font-family:HWYGOTH;
+}
+
+h3{
+	color:white;
+	text-shadow: 3px 2px 1px black;
+	margin-left:10%;
+	margin-right:10%;
+	font-family:HWYGOTH;
+}
+
+table{
+	font-family:CreatoDisplay-Regular;
+	font-size:18px;
+	color:white;
+	background-color:#394e82;
+	margin:auto;/*centrar la tabla*/
+	width:60%;
+	border:5px;
+	border-style:groove;
+	border-color:black;
+	text-shadow:3px 2px 2px black;
+	text-align:center;
+}
+
+
+img{
+	
+	display:block;
+	margin:auto;
+	margin-top:15px;
+	
+	border-radius:15px;
+	border-style:double;
+	border-color:white;
+	border-width:3px;
+	box-shadow:6px 5px 6px black;
+
+}
+
+
+.img:hover{
+	background-color:transparent;
+}
+
+
+a:link{
+	
+	color:#5b7ac9;
+	font-size:15px;
+	margin-left:2%;
+    font-family:Type Machine;
+}
+
+
+a:hover{
+	color:white;
+	
+}
+
+a:visited{
+	color:#c896fa;
+	
+}
+
+iframe{
+	display:block;
+	margin:auto;
+}
+
+ul{
+	color:white;
+	font-size:18px;
+	text-shadow:3px 2px 2px black;
+	margin-left:10%;
+	font-family:CreatoDisplay-Regular;
+}
+ol{
+	color:white;
+	font-size:18px;
+	text-shadow:3px 2px 2px black;
+	margin-left:10%;
+	font-family:CreatoDisplay-Regular;
+}
+
+
+form{
+	color:white;
+	font-size:18px;
+	text-shadow:3px 2px 2px black;
+	margin-left:10%;
+}
+
+.muestra{
+	margin-left:5%;
+	margin-right:5%;
+	display:inline;
+}
+
+.casita{
+	margin-left:3%;
+	margin-right:1%;
+	display:inline;
+}
